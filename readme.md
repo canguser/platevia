@@ -57,3 +57,8 @@ const parsedResult = parsePlate(toParseText).via(
 console.log(parsedResult); // > Hello Weals, there are 3 clients: Ane, Lee, Joe
 
 ```
+
+## API Documentation
+
+[https://github.com/canguser/platevia/blob/master/docs/modules.md](https://github.com/canguser/platevia/blob/master/docs/modules.md)
+

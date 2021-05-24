@@ -1,7 +1,7 @@
 {
   "name": "platevia",
   "version": "1.0.0",
-  "description": "Javascript ",
+  "description": "A javascript parser to parse `Template` or `Expression`, based on AST.",
   "main": "dist/platevia.js",
   "mainMini": "dist/platevia.mini.js",
   "module": "dist/platevia.es.js",

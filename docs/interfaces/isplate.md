@@ -18,7 +18,7 @@
 
 • **describe**: Function
 
-Defined in: index.ts:19
+Defined in: [index.ts:19](https://github.com/canguser/platevia/blob/c5f70f1/main/index.ts#L19)
 
 ## Methods
 
@@ -44,4 +44,4 @@ Get the template result string
 
 Result of template
 
-Defined in: index.ts:26
+Defined in: [index.ts:26](https://github.com/canguser/platevia/blob/c5f70f1/main/index.ts#L26)

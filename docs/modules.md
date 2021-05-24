@@ -31,4 +31,4 @@
 
 Plate Entity
 
-Defined in: index.ts:35
+Defined in: [index.ts:35](https://github.com/canguser/platevia/blob/c5f70f1/main/index.ts#L35)
