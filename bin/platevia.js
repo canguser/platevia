@@ -4,7 +4,7 @@
 const {parseTemplate} = require('./helper');
 const pkg = require('../package.json');
 const {Command} = require('commander'); // include commander in git clone of commander repo
-const qs = require('querystringify');
+const qs = require('qs');
 const program = new Command();
 
 program.version(pkg.version, '--version, -v')
