@@ -1,10 +1,11 @@
 {
   "name": "platevia",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A javascript parser to parse `Template` or `Expression`, based on AST.",
   "main": "dist/platevia.js",
   "mainMini": "dist/platevia.mini.js",
   "module": "dist/platevia.es.js",
+  "bin": "bin/platevia.js",
   "libName": "platevia",
   "_sourceName": "platevia",
   "author": "Cangshi",
@@ -22,6 +23,7 @@
     "gen-dts:docs": "yarn run gen-dts && yarn run gen-docs"
   },
   "files": [
+    "bin",
     "dist",
     "build",
     "docs",
@@ -32,7 +34,9 @@
   ],
   "types": "types/index.d.ts",
   "dependencies": {
-    "recast": "^0.20.4"
+    "recast": "^0.20.4",
+    "commander": "^7.2.0",
+    "querystringify": "^2.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

@@ -10,6 +10,13 @@ platevia / [Exports](modules.md)
 npm install -D platevia
 ```
 
+## CLI
+
+```shall script
+npx platevia -v # 获取当前版本
+npx platevia -h # 获取命令使用帮助
+```
+
 ## Demo
 
 ### Parse `Expression`
