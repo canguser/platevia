@@ -21,10 +21,10 @@ program.parse(process.argv);
 
 const options = program.opts();
 
-let {template, context = [], output, encoding, config = './platevia.config.js'} = options;
+let {template, context, output, encoding, config = './platevia.config.js'} = options;
 
 if (context) {
-    context = context.reduce((ct, query) => Object.assign(ct, qs.parse(query)), {});
+    context = (context || []).reduce((ct, query) => Object.assign(ct, qs.parse(query)), {});
 }
 
 try {
