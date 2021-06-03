@@ -36,10 +36,10 @@ try {
         context = configs.context;
     }
     if (!output) {
-        context = configs.output;
+        output = configs.output;
     }
     if (!encoding) {
-        context = configs.encoding;
+        encoding = configs.encoding;
     }
 } catch (e) {
     console.log('configs not exist.')
