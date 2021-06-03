@@ -54,7 +54,7 @@ module.exports = {
     ) {
 
         if (!context) {
-            return Promise.reject('Context must be specified.')
+            context = {}
         }
 
         if (!templatePath) {
